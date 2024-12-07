@@ -1,0 +1,97 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #002f6c;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.office-info {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.office-info h2 {
+    color: #002f6c;
+}
+
+.details p, .services ul li {
+    margin: 10px 0;
+}
+
+.reduced-hours {
+    background-color: #ffefc1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.map img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #002f6c;
+    color: white;
+    margin-top: 20px;
+}
+
+.logo img {
+    max-width: 200px;
+    height: auto;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: row; /* Alinea los elementos en una fila horizontal */
+    gap: 20px; /* Espacio entre las columnas */
+    width: 100%; /* Ocupa el ancho completo del navegador */
+    box-sizing: border-box; /* Incluye paddings en el cálculo del ancho */
+}
+
+.office-info, .map-section {
+    flex: 1; /* Ambas columnas ocupan la misma proporción */
+    max-width: 50%; /* Cada sección ocupa el 50% del ancho */
+    box-sizing: border-box; /* Para evitar que el padding se desborde */
+}
+
+.map-section img {
+    width: 100%; /* La imagen del mapa llena su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px;
+}
+
+.office-info {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
